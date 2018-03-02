@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="afc1fbdd7dffd88"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 5:39:36 PM"
+		timestampiso="2018-02-27T12:39:36"
+		endtime="2/27/2018 5:39:41 PM"
+		timeoutfactor="1"
+		module="VisitShopOpen">
+		<detail>
+			VisitShopOpen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.308"
+			timeRelativeToTestModuleStartTime="00:04.311"
+			timeWallClock="17:39:40"
+			time="00:04.308"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (Text&gt;'TK') on item 'PkComTradetracker.Validate_TKShopScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='TK-Platinum']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='TK-Platinum']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Validate_TKShopScreen"
+				id="801d6892ea14415898dbde5daae0aff4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="82"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.235"
+			timeRelativeToTestModuleStartTime="00:05.238"
+			timeWallClock="17:39:41"
+			time="00:05.235"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.Validate_TKShopScreen' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='TK-Platinum']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='TK-Platinum']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Validate_TKShopScreen"
+				id="801d6892ea14415898dbde5daae0aff4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+	</activity>
+</report>

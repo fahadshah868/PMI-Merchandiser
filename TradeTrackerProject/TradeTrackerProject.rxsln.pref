@@ -1,0 +1,12 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{E1D598BF-501C-4270-9349-A8F29AC6D209}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TradeTrackerProject[TradeTrackerProject[TestCases[]UserCodeCollection[]]]]&#xD;&#xA;Solution TradeTrackerProject\TradeTrackerProject\References&#xD;&#xA;Solution TradeTrackerProject" />
+  <StartupProject value="{E1D598BF-501C-4270-9349-A8F29AC6D209}" />
+</Properties>
