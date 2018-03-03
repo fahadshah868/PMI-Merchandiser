@@ -1880,16 +1880,6 @@ AElFTkSuQmCC
 				<item
 				addcaps="radiobutton,androidelement,mobileuielement"
 				capname="radiobutton"
-				id="8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c"
-				name="ShopOpen_PlanogramDeployed_No"
-				refimgid="4687cd6f-7a74-409f-8e34-225e1778706f"
-				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container[@containertype='Linear']/container[3]/radiobutton[@text='N0']"
-				searchtimeout="30000ms">
-					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']//radiobutton[@text='N0']
-				</item>
-				<item
-				addcaps="radiobutton,androidelement,mobileuielement"
-				capname="radiobutton"
 				id="525878c1-c1ec-4c68-8240-68454beed12a"
 				name="ShopOpen_BWUPosterDeployed_Yes"
 				refimgid="15a0184c-53b7-4099-a497-500d048cde4a"
@@ -1926,6 +1916,16 @@ AElFTkSuQmCC
 				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container[@containertype='Linear']/container[5]/radiobutton[@text='No']"
 				searchtimeout="30000ms">
 					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container/container[5]/radiobutton[@text='No']
+				</item>
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="3a97972e-a01d-4020-918b-755e1ea6ec7e"
+				name="ShopOpen_PlanogramDeployed_No"
+				refimgid="bedf530a-9176-4e05-add1-f003148f00b5"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container[@containertype='Linear']/container[3]/radiobutton[@text='No']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container/container[3]/radiobutton[@text='No']
 				</item>
 				<basepath>
 					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']

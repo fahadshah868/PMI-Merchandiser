@@ -5019,11 +5019,11 @@ namespace TradeTrackerProject
             RepoItemInfo _shopopen_cleanedtheunit_noInfo;
             RepoItemInfo _shopopen_cleanedtheunit_yesInfo;
             RepoItemInfo _shopopen_planogramdeployed_yesInfo;
-            RepoItemInfo _shopopen_planogramdeployed_noInfo;
             RepoItemInfo _shopopen_bwuposterdeployed_yesInfo;
             RepoItemInfo _shopopen_bwuposterdeployed_noInfo;
             RepoItemInfo _shopopen_bwusheetdeployed_yesInfo;
             RepoItemInfo _shopopen_bwusheetdeployed_noInfo;
+            RepoItemInfo _shopopen_planogramdeployed_noInfo;
 
             /// <summary>
             /// Creates a new Content  folder.
@@ -5034,11 +5034,11 @@ namespace TradeTrackerProject
                 _shopopen_cleanedtheunit_noInfo = new RepoItemInfo(this, "ShopOpen_CleanedTheUnit_No", ".//radiobutton[@text='No']", 30000, null, "147caf01-463c-4e80-962c-425b8225b292");
                 _shopopen_cleanedtheunit_yesInfo = new RepoItemInfo(this, "ShopOpen_CleanedTheUnit_Yes", ".//radiobutton[@text='Yes']", 30000, null, "38449bb6-20e2-4a62-8515-850d21be6697");
                 _shopopen_planogramdeployed_yesInfo = new RepoItemInfo(this, "ShopOpen_PlanogramDeployed_Yes", "container/container[3]/radiobutton[@text='Yes']", 30000, null, "64ff239f-8b94-4d7b-96a6-ab72b8704fef");
-                _shopopen_planogramdeployed_noInfo = new RepoItemInfo(this, "ShopOpen_PlanogramDeployed_No", ".//radiobutton[@text='N0']", 30000, null, "8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c");
                 _shopopen_bwuposterdeployed_yesInfo = new RepoItemInfo(this, "ShopOpen_BWUPosterDeployed_Yes", "container/container[4]/radiobutton[@text='Yes']", 30000, null, "525878c1-c1ec-4c68-8240-68454beed12a");
                 _shopopen_bwuposterdeployed_noInfo = new RepoItemInfo(this, "ShopOpen_BWUPosterDeployed_No", "container/container[4]/radiobutton[@text='No']", 30000, null, "8c261f68-67c8-4d44-b12a-cfbafb97f281");
                 _shopopen_bwusheetdeployed_yesInfo = new RepoItemInfo(this, "ShopOpen_BWUSheetDeployed_Yes", "container/container[5]/radiobutton[@text='Yes']", 30000, null, "1e09e444-6e41-4cce-812f-16a68babf3a9");
                 _shopopen_bwusheetdeployed_noInfo = new RepoItemInfo(this, "ShopOpen_BWUSheetDeployed_No", "container/container[5]/radiobutton[@text='No']", 30000, null, "c92d478f-f762-47bd-b8dd-d3e2c9d94ddd");
+                _shopopen_planogramdeployed_noInfo = new RepoItemInfo(this, "ShopOpen_PlanogramDeployed_No", "container/container[3]/radiobutton[@text='No']", 30000, null, "3a97972e-a01d-4020-918b-755e1ea6ec7e");
             }
 
             /// <summary>
@@ -5138,30 +5138,6 @@ namespace TradeTrackerProject
             }
 
             /// <summary>
-            /// The ShopOpen_PlanogramDeployed_No item.
-            /// </summary>
-            [RepositoryItem("8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c")]
-            public virtual Ranorex.RadioButton ShopOpen_PlanogramDeployed_No
-            {
-                get
-                {
-                    return _shopopen_planogramdeployed_noInfo.CreateAdapter<Ranorex.RadioButton>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ShopOpen_PlanogramDeployed_No item info.
-            /// </summary>
-            [RepositoryItemInfo("8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c")]
-            public virtual RepoItemInfo ShopOpen_PlanogramDeployed_NoInfo
-            {
-                get
-                {
-                    return _shopopen_planogramdeployed_noInfo;
-                }
-            }
-
-            /// <summary>
             /// The ShopOpen_BWUPosterDeployed_Yes item.
             /// </summary>
             [RepositoryItem("525878c1-c1ec-4c68-8240-68454beed12a")]
@@ -5254,6 +5230,30 @@ namespace TradeTrackerProject
                 get
                 {
                     return _shopopen_bwusheetdeployed_noInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ShopOpen_PlanogramDeployed_No item.
+            /// </summary>
+            [RepositoryItem("3a97972e-a01d-4020-918b-755e1ea6ec7e")]
+            public virtual Ranorex.RadioButton ShopOpen_PlanogramDeployed_No
+            {
+                get
+                {
+                    return _shopopen_planogramdeployed_noInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ShopOpen_PlanogramDeployed_No item info.
+            /// </summary>
+            [RepositoryItemInfo("3a97972e-a01d-4020-918b-755e1ea6ec7e")]
+            public virtual RepoItemInfo ShopOpen_PlanogramDeployed_NoInfo
+            {
+                get
+                {
+                    return _shopopen_planogramdeployed_noInfo;
                 }
             }
         }

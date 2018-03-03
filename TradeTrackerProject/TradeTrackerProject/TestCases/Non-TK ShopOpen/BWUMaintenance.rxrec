@@ -726,10 +726,10 @@ rxversion="8.0">
 			<bindings>
 			</bindings>
 			<info
-			id="8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c"
+			id="3a97972e-a01d-4020-918b-755e1ea6ec7e"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']//radiobutton[@text='N0']
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container/container[3]/radiobutton[@text='No']
 				</path>
 			</info>
 		</touchrecorditem>
@@ -1685,10 +1685,10 @@ rxversion="8.0">
 			<bindings>
 			</bindings>
 			<info
-			id="8fe2cfc6-5da9-430c-ad4c-d2ae1420bd0c"
+			id="3a97972e-a01d-4020-918b-755e1ea6ec7e"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']//radiobutton[@text='N0']
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='PPOSMStausListScreen']/container[@rid='content']/container/container[3]/radiobutton[@text='No']
 				</path>
 			</info>
 		</touchrecorditem>

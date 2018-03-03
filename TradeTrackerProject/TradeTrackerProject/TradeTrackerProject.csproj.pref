@@ -1,6 +1,11 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="TradeTrackerProject.rxtst" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="TradeTrackerProject.rxtst" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

@@ -31,7 +31,7 @@ rxversion="8.0">
 	<recorditems>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -148,7 +148,7 @@ rxversion="8.0">
 		</remotekeyboardrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_2"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -507,7 +507,7 @@ rxversion="8.0">
 		</touchrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_3"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -878,7 +878,7 @@ rxversion="8.0">
 		</touchrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_4"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -1210,7 +1210,7 @@ rxversion="8.0">
 		</touchrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_5"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -1581,7 +1581,7 @@ rxversion="8.0">
 		</touchrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_6"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"
@@ -1913,7 +1913,7 @@ rxversion="8.0">
 		</touchrecorditem>
 		<validationitem
 		action="ContainsImage"
-		codegenpropertyname="ShopsList_validation_Screenshot1_8"
+		codegenpropertyname="ShopsList_validation_Screenshot1_7"
 		enabled="True"
 		imagerect="0,0,480,59"
 		optional="False"

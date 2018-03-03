@@ -5,8 +5,10 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>{E1D598BF-501C-4270-9349-A8F29AC6D209}</string>
+      <string>c592e09d-c6ca-4fd0-a2fc-a3d6be58c8fa</string>
+      <string>ac31a361-54a8-4e54-8521-de5cc977f67c</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution TradeTrackerProject[TradeTrackerProject[TestCases[]UserCodeCollection[]]]]&#xD;&#xA;Solution TradeTrackerProject\TradeTrackerProject\References&#xD;&#xA;Solution TradeTrackerProject" />
+  <ProjectBrowserState value="[Solution TradeTrackerProject[TradeTrackerProject[TestCases[LaunchApp[]TK ShopOpen[]]UserCodeCollection[]]]]&#xD;&#xA;Solution TradeTrackerProject\TradeTrackerProject\TradeTrackerProject.rxtst&#xD;&#xA;Solution TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.rxrec" />
   <StartupProject value="{E1D598BF-501C-4270-9349-A8F29AC6D209}" />
 </Properties>
